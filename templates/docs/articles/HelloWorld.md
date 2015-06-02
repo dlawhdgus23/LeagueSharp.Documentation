@@ -17,6 +17,7 @@ First, open Visual Studio and create a new console application.
 
 2. Select the **Visual C#** tab, then the **Console Application**
 
+
 ![alt text](https://raw.githubusercontent.com/Soresu/Others/master/Images/Docs/Hello_World/2.jpg "Step two") 
 
 Recommended to name the project without any special character, it can cause some problem.
@@ -29,41 +30,40 @@ Let's code!
 In our case we have:
 
 ```
-// With double slash you can write comments
+  // With double slash you can write comments
 
-// The using keyword is used to include the other namespaces in the program and use their classes
-using System; // For this project, we only need this, but you can keep the others
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+  // The using keyword is used to include the other namespaces in the program and use their classes
+  using System; // For this project, we only need this, but you can keep the others
+  using System.Collections.Generic;
+  using System.Linq;
+  using System.Text;
+  using System.Threading.Tasks;
 
-// Namespace declaration
-namespace HelloWorld
-{
-    // Class
-    class Program
-    {
-        // Main method
-        static void Main(string[] args)
-        {
-            //Our code will be here
-        }
-    }
-}
+  // Namespace declaration
+  namespace HelloWorld
+  {
+      // Class
+      class Program
+      {
+          // Main method
+          static void Main(string[] args)
+          {
+              //Our code will be here
+          }
+      }
+  }
 ```
 A C# program usually consists of the following parts:
 
-* Namespace declaration
-  *  A namespace is a collection of classes. The HelloWorld namespace contains the class Program.
-* A class
-  * The class Program contains the data and method definitions that your program uses. Classes generally contain multiple methods. Methods define the behavior of the class. However, the Program class has only one method Main.
-* Class methods
-* Class attributes
-* A Main method
-  * This is the entry point for all C# programs. The Main method states what the class does when executed.
-* Statements and Expressions
-* Comments
+| #             |         Description        |
+|:------------:|:--------------------------:|
+|     Namespace declaration    | A namespace is a collection of classes. The HelloWorld namespace contains the class Program. | 
+|    A class   |      The class Program contains the data and method definitions that your program uses. Classes generally contain multiple methods. Methods define the behavior of the class. However, the Program class has only one method Main.      | 
+|      Class methods     |           |
+|      Class attributes     |           |
+|      A Main method     |   This is the entry point for all C# programs. The Main method states what the class does when executed.        |
+|      Statements and Expressions     |           |
+|      Comments     |           |
 
 When you run the program it will start the Main method. 
 
@@ -81,23 +81,23 @@ If you would run this program now, after the console shows up, it would close im
 ```
 You should see this.
 ```
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+  using System;
+  using System.Collections.Generic;
+  using System.Linq;
+  using System.Text;
+  using System.Threading.Tasks;
 
-namespace HelloWorld
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
-        }
-    }
-}
+  namespace HelloWorld
+  {
+      class Program
+      {
+          static void Main(string[] args)
+          {
+              Console.WriteLine("Hello World");
+              Console.ReadKey();
+          }
+      }
+  }
 ```
 5. Next step, you have to build your project, it will show you if there is any error in the project.
 
@@ -119,5 +119,7 @@ And of course you can add this project to the LeagueSharp too. But don't forget 
 ![alt text](https://raw.githubusercontent.com/Soresu/Others/master/Images/Docs/Hello_World/LS.jpg "Step LeaguesSharp")
 
 ## Congratulations for your first program.
-
+```
+  > Hello world
+```
 ![alt text](https://raw.githubusercontent.com/Soresu/Others/master/Images/Docs/Hello_World/4.jpg "Step Console")
