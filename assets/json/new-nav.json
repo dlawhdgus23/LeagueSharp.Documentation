@@ -1,0 +1,57 @@
+[
+    {
+        "navGroups": [
+            {
+                "name": "Getting started",
+                "subName": "Visual Studio",
+                "navItems": [
+                    {
+                        "name" : "Create a project",
+                        "href" : ""
+                    },
+                    {
+                        "name" : "With the loader",
+                        "href" : ""
+                    },
+                    {
+                        "name" : "In Visual Studio",
+                        "href" : ""
+                    }
+                ]
+            }, 
+            {
+            	"name" : " ",
+            	"subName" : "Github",
+            	"navItems" : [
+            		{
+            			"name" : "Create a repository",
+            			"href" : ""
+            		},
+            		{
+            			"subitem" : true,
+            			"name" : "Use Github for Windows",
+            			"href" : "",
+            			"subMenu" : [ 
+            				{
+                            	"name": "Clone",
+                            	"href": ""
+                        	},
+                        	{
+                        		"name" : "Sync",
+                        		"href" : ""
+                        	},
+                        	{
+                        		"name" : "Push",
+                        		"href" : ""
+                        	},
+                        	{
+                        		"name" : "Pull",
+                        		"href" : ""
+                        	}
+                        ]
+            		}
+            	]
+            }
+        ]
+    }
+]

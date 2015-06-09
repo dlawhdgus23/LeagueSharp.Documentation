@@ -1,7 +1,7 @@
 angular.module('LeagueSharpDocs.services', []).service('getService', ['$q', '$http', function($q, $http) {
     "use strict";
 
-    var data = './assets/json/nav-data.json';
+    var data = './assets/json/new-nav.json';
 
     var baseService = {
         /**
