@@ -21,7 +21,7 @@
             }, 
             {
             	"name" : " ",
-            	"subName" : "Github",
+            	"subName" : "GitHub",
             	"navItems" : [
             		{
             			"name" : "Create a repository",
@@ -29,7 +29,7 @@
             		},
             		{
             			"subitem" : true,
-            			"name" : "Use Github for Windows",
+            			"name" : "Use GitHub for Windows",
             			"href" : "",
             			"subMenu" : [ 
             				{
