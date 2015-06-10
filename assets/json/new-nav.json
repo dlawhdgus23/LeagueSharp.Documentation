@@ -207,7 +207,7 @@
                         		"href" : ""
                         	},
                         	{
-                        		"name" : "Api list",
+                        		"name" : "API list",
                         		"href" : ""
                         	},
                         	{
@@ -215,28 +215,30 @@
                         		"href" : ""
                         	}
                         ]
-            		}
-                ]
-            },
-            {
-                "name": "Math",
-                "navItems": [
+            		},
                     {
-                        "name" : "General math basics",
-                        "href" : ""
-                    },
-                    {
-                        "name" : "How do you use it?",
-                        "href" : ""
-                    },
-                    {
-                        "name" : "Api list",
-                        "href" : ""
-                    },
-                    {
-                    	"name" : "Examples",
-                    	"href" : ""
-                    }
+                    "subitem" : true,
+                    "name": "Math",
+                    "subMenu": [
+                        {
+                            "name" : "General math basics",
+                            "href" : ""
+                        },
+                        {
+                            "name" : "How do you use it?",
+                            "href" : ""
+                        },
+                        {
+                            "name" : "API list",
+                            "href" : ""
+                        },
+                        {
+                            "name" : "Examples",
+                            "href" : ""
+                        }
+                    ]
+                }
+
                 ]
             },
             {
@@ -276,7 +278,7 @@
                     	"href" : ""
                     },
                     {
-                        "name" : "Api list",
+                        "name" : "API list",
                         "href" : ""
                     },
                     {
@@ -306,7 +308,7 @@
                             	"href": ""
                         	},
                         	{
-                        		"name" : "Api list",
+                        		"name" : "API list",
                         		"href" : ""
                         	},
                         	{
@@ -325,7 +327,7 @@
                             	"href": ""
                         	},
                         	{
-                        		"name" : "Api list",
+                        		"name" : "API list",
                         		"href" : ""
                         	},
                         	{
@@ -350,7 +352,7 @@
                             	"href": ""
                         	},
                         	{
-                        		"name" : "Api list",
+                        		"name" : "API list",
                         		"href" : ""
                         	},
                         	{
