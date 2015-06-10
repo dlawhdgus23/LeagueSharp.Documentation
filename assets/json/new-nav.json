@@ -6,152 +6,152 @@
                 "subName": "Visual Studio",
                 "navItems": [
                     {
-                        "name" : "Create a project",
-                        "href" : ""
+                        "name": "Create a project",
+                        "href": ""
                     },
                     {
-                        "name" : "With the loader",
-                        "href" : ""
+                        "name": "With the loader",
+                        "href": ""
                     },
                     {
-                        "name" : "In Visual Studio",
-                        "href" : ""
+                        "name": "In Visual Studio",
+                        "href": ""
                     }
                 ]
-            }, 
+            },
             {
-            	"name" : " ",
-            	"subName" : "GitHub",
-            	"navItems" : [
-            		{
-            			"name" : "Create a repository",
-            			"href" : ""
-            		},
-            		{
-            			"subitem" : true,
-            			"name" : "Use GitHub for Windows",
-            			"href" : "",
-            			"subMenu" : [ 
-            				{
-                            	"name": "Clone",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "Sync",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Push",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Pull",
-                        		"href" : ""
-                        	}
+                "name": " ",
+                "subName": "GitHub",
+                "navItems": [
+                    {
+                        "name": "Create a repository",
+                        "href": ""
+                    },
+                    {
+                        "subitem": true,
+                        "name": "Use GitHub for Windows",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "Clone",
+                                "href": ""
+                            },
+                            {
+                                "name": "Sync",
+                                "href": ""
+                            },
+                            {
+                                "name": "Push",
+                                "href": ""
+                            },
+                            {
+                                "name": "Pull",
+                                "href": ""
+                            }
                         ]
-            		}
-            	]
+                    }
+                ]
             },
             {
                 "name": "C# basics",
                 "navItems": [
                     {
-                        "name" : "Instruction",
-                        "href" : ""
+                        "name": "Instruction",
+                        "href": ""
                     },
                     {
-                    	"subitem" : true,
-                        "name" : "Guide",
-                        "href" : "",
-                        "subMenu" : [ 
-            				{
-                            	"name": "Basic syntax",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "Data types",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Type conversion",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Variables",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Constants",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Operators",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Decision making",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Loops",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Encapsulation",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Methods",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Nullables",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Arrays",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Strings",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Structure",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Enums",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Classes",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Inheritance",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Polymorphism",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Operator overloading",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Interfaces",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Namespaces",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Exception handling",
-                        		"href" : ""
-                        	}
+                        "subitem": true,
+                        "name": "Guide",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "Basic syntax",
+                                "href": ""
+                            },
+                            {
+                                "name": "Data types",
+                                "href": ""
+                            },
+                            {
+                                "name": "Type conversion",
+                                "href": ""
+                            },
+                            {
+                                "name": "Variables",
+                                "href": ""
+                            },
+                            {
+                                "name": "Constants",
+                                "href": ""
+                            },
+                            {
+                                "name": "Operators",
+                                "href": ""
+                            },
+                            {
+                                "name": "Decision making",
+                                "href": ""
+                            },
+                            {
+                                "name": "Loops",
+                                "href": ""
+                            },
+                            {
+                                "name": "Encapsulation",
+                                "href": ""
+                            },
+                            {
+                                "name": "Methods",
+                                "href": ""
+                            },
+                            {
+                                "name": "Nullables",
+                                "href": ""
+                            },
+                            {
+                                "name": "Arrays",
+                                "href": ""
+                            },
+                            {
+                                "name": "Strings",
+                                "href": ""
+                            },
+                            {
+                                "name": "Structure",
+                                "href": ""
+                            },
+                            {
+                                "name": "Enums",
+                                "href": ""
+                            },
+                            {
+                                "name": "Classes",
+                                "href": ""
+                            },
+                            {
+                                "name": "Inheritance",
+                                "href": ""
+                            },
+                            {
+                                "name": "Polymorphism",
+                                "href": ""
+                            },
+                            {
+                                "name": "Operator overloading",
+                                "href": ""
+                            },
+                            {
+                                "name": "Interfaces",
+                                "href": ""
+                            },
+                            {
+                                "name": "Namespaces",
+                                "href": ""
+                            },
+                            {
+                                "name": "Exception handling",
+                                "href": ""
+                            }
                         ]
                     }
                 ]
@@ -160,8 +160,8 @@
                 "name": "Tips and tricks",
                 "navItems": [
                     {
-                        "name" : "Caching",
-                        "href" : ""
+                        "name": "Caching",
+                        "href": ""
                     }
                 ]
             },
@@ -169,121 +169,123 @@
                 "name": "Core/SDK",
                 "navItems": [
                     {
-            			"subitem" : true,
-            			"name" : "Events",
-            			"href" : "",
-
-            			"subMenu" : [ 
-            				{
-                            	"name": "What are events?",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "How do you use them?",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "List of all events",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Examples",
-                        		"href" : ""
-                        	}
+                        "subitem": true,
+                        "name": "Events",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "What are events?",
+                                "href": ""
+                            },
+                            {
+                                "name": "How do you use them?",
+                                "href": ""
+                            },
+                            {
+                                "name": "List of all events",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
                         ]
-            		},
-            		{
-            			"subitem" : true,
-            			"name" : "Rendering",
-            			"href" : "",
-
-            			"subMenu" : [ 
-            				{
-                            	"name": "What is rendering?",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "How do you use it?",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "API list",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Examples",
-                        		"href" : ""
-                        	}
+                    },
+                    {
+                        "subitem": true,
+                        "name": "Rendering",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "What is rendering?",
+                                "href": ""
+                            },
+                            {
+                                "name": "How do you use it?",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
                         ]
-            		},
-                    {
-                    "subitem" : true,
-                    "name": "Math",
-                    "subMenu": [
-                        {
-                            "name" : "General math basics",
-                            "href" : ""
-                        },
-                        {
-                            "name" : "How do you use it?",
-                            "href" : ""
-                        },
-                        {
-                            "name" : "API list",
-                            "href" : ""
-                        },
-                        {
-                            "name" : "Examples",
-                            "href" : ""
-                        }
-                    ]
-                }
-
-                ]
-            },
-            {
-                "name": "Prediction",
-                "navItems": [
-                    {
-                        "name" : "What is a prediction?",
-                        "href" : ""
                     },
                     {
-                        "name" : "Prediction types",
-                        "href" : ""
+                        "subitem": true,
+                        "name": "Math",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "General math basics",
+                                "href": ""
+                            },
+                            {
+                                "name": "How do you use it?",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
+                        ]
                     },
                     {
-                    	"name" : "Examples",
-                    	"href" : ""
-                    }
-                ]
-            },
-            {
-                "name": "Networking",
-                "navItems": [
-                    {
-                        "name" : "What is networking?",
-                        "href" : ""
+                        "subitem": true,
+                        "name": "Prediction",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "What is a prediction?",
+                                "href": ""
+                            },
+                            {
+                                "name": "Prediction types",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
+                        ]
                     },
                     {
-                        "name" : "How does it work?",
-                        "href" : ""
-                    },
-                    {
-                    	"name" : "How can L# SDK help me",
-                    	"href" : ""
-                    },
-                    {
-                    	"name" : "Avoid networking?",
-                    	"href" : ""
-                    },
-                    {
-                        "name" : "API list",
-                        "href" : ""
-                    },
-                    {
-                    	"name" : "Examples",
-                    	"href" : ""
+                        "subitem": true,
+                        "name": "Networking",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "What is networking?",
+                                "href": ""
+                            },
+                            {
+                                "name": "How does it work?",
+                                "href": ""
+                            },
+                            {
+                                "name": "How can L# SDK help me",
+                                "href": ""
+                            },
+                            {
+                                "name": "Avoid networking?",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
+                        ]
                     }
                 ]
             },
@@ -291,76 +293,75 @@
                 "name": "UI",
                 "navItems": [
                     {
-                        "name" : "Concept behind the L# UI",
-                        "href" : ""
+                        "name": "Concept behind the L# UI",
+                        "href": ""
                     },
                     {
-                        "name" : "UI types",
-                        "href" : ""
+                        "name": "UI types",
+                        "href": ""
                     },
                     {
-            			"subitem" : true,
-            			"name" : "Menu",
-            			"href" : "",
-            			"subMenu" : [ 
-            				{
-                            	"name": "How to use it?",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "API list",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Examples",
-                        		"href" : ""
-                        	}
+                        "subitem": true,
+                        "name": "Menu",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "How to use it?",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
                         ]
-            		},
-            		{
-            			"subitem" : true,
-            			"name" : "Notification",
-            			"href" : "",
-            			"subMenu" : [ 
-            				{
-                            	"name": "How to use it?",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "API list",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Examples",
-                        		"href" : ""
-                        	}
+                    },
+                    {
+                        "subitem": true,
+                        "name": "Notification",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "How to use it?",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
                         ]
-            		}
+                    }
                 ]
             },
             {
                 "name": "Utils",
                 "navItems": [
-                
                     {
-            			"subitem" : true,
-            			"name" : "[each name]",
-            			"href" : "",
-            			"subMenu" : [ 
-            				{
-                            	"name": "Brief description",
-                            	"href": ""
-                        	},
-                        	{
-                        		"name" : "API list",
-                        		"href" : ""
-                        	},
-                        	{
-                        		"name" : "Examples",
-                        		"href" : ""
-                        	}
+                        "subitem": true,
+                        "name": "[each name]",
+                        "href": "",
+                        "subMenu": [
+                            {
+                                "name": "Brief description",
+                                "href": ""
+                            },
+                            {
+                                "name": "API list",
+                                "href": ""
+                            },
+                            {
+                                "name": "Examples",
+                                "href": ""
+                            }
                         ]
-            		}
+                    }
                 ]
             }
         ]

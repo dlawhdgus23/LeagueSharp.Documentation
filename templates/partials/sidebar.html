@@ -5,7 +5,7 @@
 			<h3 ng-if="navGroup.subName">{{ navGroup.subName }}</h3>
 			<ul class="none">	
 				<li ng-repeat="navItem in navGroup.navItems">
-					<span ng-if="navItem.subitem" ng-class="subitem">{{ navItem.name }}</span>
+					<span ng-if="navItem.subitem" class="subitem">{{ navItem.name }}</span>
 					<a ng-if="!navItem.subitem" ng-href="#!/{{ navItem.href }}" ng-class="{'active-tab': $route.current.params.name == navItem.href}">{{ navItem.name }}</a> 
 					<ul ng-repeat="subItem in navItem.subMenu track by navItem.subMenu[$index].name" ng-if="navItem.subMenu" class="submenu">
 						<li><a ng-href="#!/{{ subItem.href }}">{{ subItem.name }}</a></li>				
