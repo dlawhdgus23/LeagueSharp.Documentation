@@ -1,13 +1,10 @@
-**Constants**
+# Constants #
 -------------
 Constants are unchangeable variables in C# code. You have to assign the constant to a value when you declare it. The **const** keyword is used to define a constant.
 You can define constant of almost any data type and you can define collection of constants as well. Let's look at the following example with string constant:
 
    
-
-       ```
         using System;
-       
         class Program
         {
             const string _html = ".html";
@@ -30,7 +27,7 @@ You can define constant of almost any data type and you can define collection of
             // _pi=4.764893 causes compile-time error as well
             }
         }
-        ```
+        
 >**Tip:**
 >Variable defined as const will simply be replaced by the value you assigned. The const variable won't be looked for by the compiler and it is retained in the assembly metadata.
 

@@ -3,7 +3,7 @@
  A cache is a component that stores data so future requests for that data can be served faster. The SDK already provides us with a simple and fast Cache.
 
 ## Uses ##
-Typically for LeagueSharp projects, the only major use of caching is getting game objects in the world. You can implement your own cache with our helpful `Cache` class, or get access to pre-cached game objects by using `GameObjects` (Not to be confused with `GameObject`)
+Typically for LeagueSharp projects, the only major use of caching is getting game objects in the world. You can implement your own cache with our helpful `Cache` class, or get access to pre-cached game objects by using `GameObjects` (Not to be confused with `GameObject`!)
 
 ## How it Works ##
 The `GameObjects` class works by subscribing to the `GameObject.OnCreate` and `GameObject.OnDelete`, and deleting/adding that game object to that types list.

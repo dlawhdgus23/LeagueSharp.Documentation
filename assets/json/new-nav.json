@@ -78,11 +78,11 @@
                             },
                             {
                                 "name": "Variables",
-                                "href": ""
+                                "href": "variables"
                             },
                             {
                                 "name": "Constants",
-                                "href": ""
+                                "href": "Constants"
                             },
                             {
                                 "name": "Operators",
@@ -161,7 +161,7 @@
                 "navItems": [
                     {
                         "name": "Caching",
-                        "href": ""
+                        "href": "Caching"
                     }
                 ]
             },
@@ -244,7 +244,7 @@
                         "subMenu": [
                             {
                                 "name": "What is a prediction?",
-                                "href": ""
+                                "href": "prediction"
                             },
                             {
                                 "name": "Prediction types",
