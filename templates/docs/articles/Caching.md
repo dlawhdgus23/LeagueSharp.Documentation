@@ -3,7 +3,7 @@
  A cache is a component that stores data so future requests for that data can be served faster. The SDK already provides us with a simple and fast Cache.
 
 ## Uses ##
-Typically for LeagueSharp projects, the only major use of caching is getting game objects in the world. You can implement your own cache with our helpful `Cache` class, or get access to pre-cached game objects by using `GameObjects` (Not to be confused with `GameObject`!)
+Typically for LeagueSharp projects, the only major use of caching is getting game objects in the world. You can implement your own cache with our helpful `Cache` class, or get access to pre-cached game objects by using `GameObjects` (Not to be confused with `GameObject`)
 
 ## How it Works ##
 The `GameObjects` class works by subscribing to the `GameObject.OnCreate` and `GameObject.OnDelete`, and deleting/adding that game object to that types list.
@@ -31,16 +31,18 @@ The `AddOrGetExisting` does exactly what its name says. It will add an item to t
 
 Example(Taken from the SDK):
 
-        public static string LogDirectory
-        {
-            get
-            {
-                return
-                    Cache.Instance.AddOrGetExisting(
-                        "LogDirectory", 
-                        () => Path.Combine(LeagueSharpAppData, "Logs", "CommonEx")).ToString();
-            }
-        }
+```
+  public static string LogDirectory
+  {
+      get
+      {
+          return
+              Cache.Instance.AddOrGetExisting(
+                  "LogDirectory", 
+                  () => Path.Combine(LeagueSharpAppData, "Logs", "CommonEx")).ToString();
+      }
+  }
+```
 
 Notice the `ToString()` method called. This is because **all objects in the cache are boxed (converted into the 'object' type)**. You will need to cast them back into the type you need!
 
@@ -60,17 +62,19 @@ If you're wondering what the `ObjectCache.InfiniteAbsoluteExpiration` is, it is 
 ### TryGetValue ###
 This method will *try* to get the value of key, and returns a boolean if the cache contains any item with the same key in the same region. If the cache does contain the item, its value will be set with an out argument in the TryGetValue method. **This is much faster then the `Contains` method!**
 
-    object value;
-    if (Cache.Instance.TryGetValue("Foo", out value))
-    {
-      	// Cache contains an item with a key of "Foo"!
-      	// We can use value!
-    }
-    else
-    {
-        // Cache does not contain an item with a key of "Foo!"
-        // We cannot use value!
-    }
+```
+  object value;
+  if (Cache.Instance.TryGetValue("Foo", out value))
+  {
+    	// Cache contains an item with a key of "Foo"!
+    	// We can use value!
+  }
+  else
+  {
+      // Cache does not contain an item with a key of "Foo!"
+      // We cannot use value!
+  }
+```
 
 
 
