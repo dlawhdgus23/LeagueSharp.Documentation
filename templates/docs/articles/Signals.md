@@ -26,7 +26,7 @@ Signals are created by calling `Signal.Create()`. **The `Signal.Create()` also r
 
 To create a signal with an expiration, pass in a DateTimeOffset as the next argument. By not adding an expiration, the signals will not expire.
 
-	// Signal gets called when the players health percent is less then 45 %
+	// Signal gets called when the players health percent is less then 30 %
     signal => ObjectManager.Player.HealthPercent < 30, DateTimeOffset.Now.AddMinutes(20));
 
 In addition, signals also have "properties". These properties are dictionaries, and can be used to store information needed when the signal is raised that otherwise is not available. You can pass in a dictionary with values to be used by the signal.
