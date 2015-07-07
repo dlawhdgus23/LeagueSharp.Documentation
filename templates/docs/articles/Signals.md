@@ -50,7 +50,7 @@ In addition, signals also have "properties". These properties are dictionaries, 
                 raisedArgs.Signal.Reset();
 
             }, signal => ObjectManager.Player.HealthPercent < (int) signal.Properties["HealthPercent"],
-                DateTimeOffset.Now.AddMinutes(20), propertiesDictionary);'
+                DateTimeOffset.Now.AddMinutes(20), propertiesDictionary);
 
 Don't forget that you can get the signal from `Signal.Create` (It returns an instance of the `Signal` class), and go into the properties and change `HealthPercent`. A great use would be from a Menu.
 
